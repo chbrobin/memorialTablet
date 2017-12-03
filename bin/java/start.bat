@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.7.0_60\bin\java" -server -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M -XX:NewRatio=4 -XX:SurvivorRatio=4 -DLogback.configurationFile=conf/logback.xml  -cp lib/* com.shenhua.memorial.tablet.controller.ComController

@@ -1,0 +1,1 @@
+C:\wamp64\bin\mysql\mysql5.7.19\bin\mysql -uroot -pXX01FghikkDF < %cd%\memorial_tablet_init.sql

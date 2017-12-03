@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>江阴神华寺信息系统后台使用说明</title>
+    <meta name="author" content="berlinix" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/prettify.css" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style>
+        .fixedDiv{
+            z-index:10;
+            width:15%;
+            position:fixed;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/index.php">江阴神华寺信息系统<span style="color:gray; font-size:15px;">&middot; 使用说明</span></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+
+                    </div>
+                </div> <!-- container -->
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-info fixedDiv">
+                <div class="panel-heading">功能导航</div>
+                <div class="panel-body">
+                    <nav>
+                        <ul>
+                            <li><a href="#help-module-1">系统安装</a></li>
+                            <li><a href="#help-module-2">数据管理</a></li>
+                            <li><a href="#help-module-3">常见问题</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-9">
+
+            <article>
+                <div class="alert alert-info" id="help-module-1">
+                    系统安装
+                </div>
+
+                <p>一、软件安装</p>
+                <ul>
+                    <li>1、安装wamp</li>
+                    <li>2、安装jdk</li>
+                    <li>1、解压、拷贝到相关目录(如D盘根目录)</li>
+                    <li>2、运行 bin\java\init.bat</li>
+                </ul>
+
+                <p>一、服务启动</p>
+                <ul>
+                    <li>启动桌面wamp.exe</li>
+                    <li>bin\java\start.bat</li>
+                </ul>
+
+                <div class="alert alert-info" id="help-module-2">
+                    数据管理
+                </div>
+
+                <p>主要功能：</p>
+                <ul>
+                    <li>牌位管理，主要功能有：数据查询、修改</li>
+                    <li>配置管理，系统配置、系统页面背景设置</li>
+                    <li>操作日志，目前主要是每次亮灯记录</li>
+                </ul>
+
+                <div class="alert alert-info" id="help-module-3">
+                    常见问题
+                </div>
+
+                <p>亮灯问题：</p>
+                <ul>
+                    <li>COM端口(XXXX)被占用</li>
+                    <li>COM端口(XXXX)不存在</li>
+                    <li>COM端口(XXXX)非法操作</li>
+                    <li>COM端口(XXXX)未知异常</li>
+                    <li>串口通讯连接错误：CODE MESSAGE</li>
+                </ul>
+
+                <p>系统日志：</p>
+                <ul>
+                    <li>程序目录/bin/java/logs</li>
+                    <li>wamp目录/bin/logs</li>
+                </ul>
+                <!--
+
+                <pre>
+                " _vimrc
+                let g:vimwiki_valid_html_tags = ''
+                </pre>
+
+                <p>
+                    这样一来，页面布局就完全不能使用HTML标签，以至于一些工作，只能依赖于jQuery/Bootstrap完成。
+                    <br/><img src="img/bgimg1.jpg" width="600"/>
+                </p>
+
+                <h1 id="toc_1">优化！开始</h1>
+
+                <h2 id="toc_1.1">区分内外链</h2>
+
+                <p>
+                    目标：点击外链，在新窗口打开；点击内链，在当前窗口打开。
+                    <br/><img src="img/bgimg2.jpg" width="600"/>
+                </p>
+
+                <div class="alert alert-info">
+                    常见问题
+                </div>
+
+                <p>
+                    VimWiki生成的页面：
+                </p>
+                <pre>
+                &lt;a href="VimWiki.html"&gt;VimWiki学习笔记&lt;/a&gt;
+                &lt;a href="http://www.vim.org"&gt;Vim官网&lt;/a&gt;
+                </pre>
+
+                <h2 id="toc_1.2">侧边导航</h2>
+
+                <p>
+                    目标：为了让不同类别的页面，有不同的侧边导航，例如：HTML笔记页面的侧边是：HTML表单、HTML头部等；Vim笔记页面的侧边导航是：Vim寄存器、Vim插件、VimWiki等。
+                    <br/><img src="img/bgimg3.jpg" width="600"/>
+                </p>
+
+                <h1 id="toc_2">添加Google搜索框</h1>
+
+                <p>
+                    其中<code>CustomID</code>是申请Google自定义搜索时获取的ID。<code>ie</code>意指输入<a href="/it/charset.php">语言编码</a>，我这里用了GBK（参考<a href="/co/gsearch.php">Google搜索参数</a>）。
+                </p-->
+                <div class="clear"></div>
+            </article>
+
+        </div> <!-- main body -->
+        <!--footer>
+            <a href="/index.php">首页</a> |
+            <a href="/links.php">链接</a> |
+            <a href="/sitemap.php">网站地图</a> |
+            <a href="/about.php">关于网站</a>
+            <p>友链：
+                <a href="http://idleworks.io">IdleWorks</a>
+                <a href="http://www.kuaidi100.com/" target="_blank">快递查询</a>
+                <br/>
+                <a href="http://www.miitbeian.gov.cn" style="color:gray;">京ICP备12052177号-1</a>
+            </p>
+        </footer -->
+    </div>  <!-- row -->
+</div>  <!-- containert -->
+</body>
+</html>

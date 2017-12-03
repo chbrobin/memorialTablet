@@ -1,0 +1,1594 @@
+2017-11-04 10:53:46,826 INFO (StartupInfoLogger.java:48)- Starting ComController on WIN-EF8A21RTJV3 with PID 4452 (E:\memorialTablet\memorialTablet-java\target\classes started by Administrator in E:\memorialTablet)
+2017-11-04 10:53:46,832 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-11-04 10:53:46,832 INFO (SpringApplication.java:666)- No active profile set, falling back to default profiles: default
+2017-11-04 10:53:49,865 INFO (StartupInfoLogger.java:57)- Started ComController in 3.955 seconds (JVM running for 4.655)
+2017-11-04 10:53:54,100 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:1 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:53:54,103 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:1 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:56:12,685 INFO (StartupInfoLogger.java:48)- Starting ComController on WIN-EF8A21RTJV3 with PID 5908 (E:\memorialTablet\memorialTablet-java\target\classes started by Administrator in E:\memorialTablet)
+2017-11-04 10:56:12,717 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-11-04 10:56:12,717 INFO (SpringApplication.java:666)- No active profile set, falling back to default profiles: default
+2017-11-04 10:56:15,751 INFO (StartupInfoLogger.java:57)- Started ComController in 3.583 seconds (JVM running for 4.167)
+2017-11-04 10:56:18,919 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:1 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:56:18,923 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:1 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:56:19,376 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:04,919 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:58:04,919 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:58:05,053 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:06,061 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 10:58:06,061 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 10:58:06,195 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:07,210 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 10:58:07,211 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 10:58:07,344 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:08,360 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 10:58:08,361 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 10:58:08,505 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:09,524 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 10:58:09,525 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 10:58:09,667 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:51,111 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:58:51,112 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 10:58:51,242 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:52,248 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 10:58:52,249 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 10:58:52,387 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:53,402 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 10:58:53,403 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 10:58:53,549 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:54,564 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 10:58:54,565 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 10:58:54,712 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:55,727 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 10:58:55,728 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 10:58:55,876 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:56,893 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 10:58:56,894 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 10:58:57,039 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:58,055 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 10:58:58,056 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 10:58:58,202 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:58:59,216 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 10:58:59,217 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 10:58:59,350 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:00,365 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 10:59:00,366 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 10:59:00,513 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:01,543 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:on closeDelayTime:300
+2017-11-04 10:59:01,544 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:on closeDelayTime:300
+2017-11-04 10:59:01,676 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:02,691 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:on closeDelayTime:300
+2017-11-04 10:59:02,693 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:on closeDelayTime:300
+2017-11-04 10:59:02,839 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:03,853 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:on closeDelayTime:300
+2017-11-04 10:59:03,854 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:on closeDelayTime:300
+2017-11-04 10:59:03,987 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:05,001 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:on closeDelayTime:300
+2017-11-04 10:59:05,002 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:on closeDelayTime:300
+2017-11-04 10:59:05,134 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:06,148 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:on closeDelayTime:300
+2017-11-04 10:59:06,149 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:on closeDelayTime:300
+2017-11-04 10:59:06,282 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:07,296 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:on closeDelayTime:300
+2017-11-04 10:59:07,297 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:on closeDelayTime:300
+2017-11-04 10:59:07,444 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:08,458 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:on closeDelayTime:300
+2017-11-04 10:59:08,460 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:on closeDelayTime:300
+2017-11-04 10:59:08,593 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:09,608 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:on closeDelayTime:300
+2017-11-04 10:59:09,609 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:on closeDelayTime:300
+2017-11-04 10:59:09,755 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:10,771 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:on closeDelayTime:300
+2017-11-04 10:59:10,772 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:on closeDelayTime:300
+2017-11-04 10:59:10,918 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:11,931 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:on closeDelayTime:300
+2017-11-04 10:59:11,932 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:on closeDelayTime:300
+2017-11-04 10:59:12,067 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:13,082 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:on closeDelayTime:300
+2017-11-04 10:59:13,083 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:on closeDelayTime:300
+2017-11-04 10:59:13,215 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:14,229 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:on closeDelayTime:300
+2017-11-04 10:59:14,230 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:on closeDelayTime:300
+2017-11-04 10:59:14,378 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:15,392 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:on closeDelayTime:300
+2017-11-04 10:59:15,393 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:on closeDelayTime:300
+2017-11-04 10:59:15,524 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:16,538 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:on closeDelayTime:300
+2017-11-04 10:59:16,539 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:on closeDelayTime:300
+2017-11-04 10:59:16,671 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:17,685 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:on closeDelayTime:300
+2017-11-04 10:59:17,686 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:on closeDelayTime:300
+2017-11-04 10:59:17,819 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:18,835 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:on closeDelayTime:300
+2017-11-04 10:59:18,836 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:on closeDelayTime:300
+2017-11-04 10:59:18,981 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:19,995 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:on closeDelayTime:300
+2017-11-04 10:59:19,996 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:on closeDelayTime:300
+2017-11-04 10:59:20,127 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:21,141 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:on closeDelayTime:300
+2017-11-04 10:59:21,142 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:on closeDelayTime:300
+2017-11-04 10:59:21,289 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:22,304 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:on closeDelayTime:300
+2017-11-04 10:59:22,305 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:on closeDelayTime:300
+2017-11-04 10:59:22,439 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:23,453 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:on closeDelayTime:300
+2017-11-04 10:59:23,454 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:on closeDelayTime:300
+2017-11-04 10:59:23,588 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:24,602 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:on closeDelayTime:300
+2017-11-04 10:59:24,603 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:on closeDelayTime:300
+2017-11-04 10:59:24,735 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:25,749 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:on closeDelayTime:300
+2017-11-04 10:59:25,750 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:on closeDelayTime:300
+2017-11-04 10:59:25,884 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:26,898 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:300
+2017-11-04 10:59:26,899 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:300
+2017-11-04 10:59:27,031 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:55,620 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:300
+2017-11-04 10:59:55,621 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:300
+2017-11-04 10:59:55,754 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:56,762 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:off closeDelayTime:300
+2017-11-04 10:59:56,763 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:off closeDelayTime:300
+2017-11-04 10:59:56,896 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:57,908 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:off closeDelayTime:300
+2017-11-04 10:59:57,909 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:off closeDelayTime:300
+2017-11-04 10:59:58,044 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 10:59:59,057 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:off closeDelayTime:300
+2017-11-04 10:59:59,058 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:off closeDelayTime:300
+2017-11-04 10:59:59,191 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:00,205 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:off closeDelayTime:300
+2017-11-04 11:00:00,206 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:off closeDelayTime:300
+2017-11-04 11:00:00,338 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:01,352 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:off closeDelayTime:300
+2017-11-04 11:00:01,353 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:off closeDelayTime:300
+2017-11-04 11:00:01,486 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:02,500 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:off closeDelayTime:300
+2017-11-04 11:00:02,501 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:off closeDelayTime:300
+2017-11-04 11:00:02,634 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:03,648 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:off closeDelayTime:300
+2017-11-04 11:00:03,649 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:off closeDelayTime:300
+2017-11-04 11:00:03,781 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:04,796 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:off closeDelayTime:300
+2017-11-04 11:00:04,797 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:off closeDelayTime:300
+2017-11-04 11:00:04,929 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:05,943 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:off closeDelayTime:300
+2017-11-04 11:00:05,946 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:off closeDelayTime:300
+2017-11-04 11:00:06,091 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:07,106 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:off closeDelayTime:300
+2017-11-04 11:00:07,107 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:off closeDelayTime:300
+2017-11-04 11:00:07,255 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:08,271 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:off closeDelayTime:300
+2017-11-04 11:00:08,272 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:off closeDelayTime:300
+2017-11-04 11:00:08,417 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:09,434 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:off closeDelayTime:300
+2017-11-04 11:00:09,435 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:off closeDelayTime:300
+2017-11-04 11:00:09,581 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:10,595 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:off closeDelayTime:300
+2017-11-04 11:00:10,596 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:off closeDelayTime:300
+2017-11-04 11:00:10,729 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:11,745 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:off closeDelayTime:300
+2017-11-04 11:00:11,746 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:off closeDelayTime:300
+2017-11-04 11:00:11,894 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:12,907 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:off closeDelayTime:300
+2017-11-04 11:00:12,908 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:off closeDelayTime:300
+2017-11-04 11:00:13,042 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:14,056 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:off closeDelayTime:300
+2017-11-04 11:00:14,057 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:off closeDelayTime:300
+2017-11-04 11:00:14,190 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:15,205 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:off closeDelayTime:300
+2017-11-04 11:00:15,206 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:off closeDelayTime:300
+2017-11-04 11:00:15,353 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:16,367 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:off closeDelayTime:300
+2017-11-04 11:00:16,368 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:off closeDelayTime:300
+2017-11-04 11:00:16,500 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:17,514 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:off closeDelayTime:300
+2017-11-04 11:00:17,515 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:off closeDelayTime:300
+2017-11-04 11:00:17,663 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:18,677 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:off closeDelayTime:300
+2017-11-04 11:00:18,678 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:off closeDelayTime:300
+2017-11-04 11:00:18,811 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:19,825 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:off closeDelayTime:300
+2017-11-04 11:00:19,826 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:off closeDelayTime:300
+2017-11-04 11:00:19,959 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:20,974 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:off closeDelayTime:300
+2017-11-04 11:00:20,977 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:off closeDelayTime:300
+2017-11-04 11:00:21,122 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:22,135 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:off closeDelayTime:300
+2017-11-04 11:00:22,136 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:off closeDelayTime:300
+2017-11-04 11:00:22,270 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:23,284 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:off closeDelayTime:300
+2017-11-04 11:00:23,285 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:off closeDelayTime:300
+2017-11-04 11:00:23,418 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:24,432 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:off closeDelayTime:300
+2017-11-04 11:00:24,433 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:off closeDelayTime:300
+2017-11-04 11:00:24,566 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:25,579 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:off closeDelayTime:300
+2017-11-04 11:00:25,580 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:off closeDelayTime:300
+2017-11-04 11:00:25,715 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:26,728 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:off closeDelayTime:300
+2017-11-04 11:00:26,729 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:off closeDelayTime:300
+2017-11-04 11:00:26,863 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:27,877 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:off closeDelayTime:300
+2017-11-04 11:00:27,878 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:off closeDelayTime:300
+2017-11-04 11:00:28,010 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:29,025 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:off closeDelayTime:300
+2017-11-04 11:00:29,026 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:off closeDelayTime:300
+2017-11-04 11:00:29,173 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:30,187 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:off closeDelayTime:300
+2017-11-04 11:00:30,189 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:off closeDelayTime:300
+2017-11-04 11:00:30,336 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:31,349 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:300
+2017-11-04 11:00:31,350 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:300
+2017-11-04 11:00:31,484 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:00:54,311 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:300
+2017-11-04 11:00:54,311 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:300
+2017-11-04 11:00:54,450 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:01:13,095 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:01:13,096 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:01:13,229 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:05,694 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:03:05,695 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:03:05,822 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:22,773 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:03:22,774 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:03:22,907 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:23,913 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:03:23,914 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:03:24,050 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:25,064 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:03:25,065 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:03:25,198 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:26,215 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:03:26,216 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:03:26,362 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:27,377 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 11:03:27,378 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 11:03:27,524 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:28,537 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 11:03:28,538 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 11:03:28,671 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:29,687 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 11:03:29,688 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 11:03:29,834 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:30,848 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 11:03:30,849 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 11:03:30,983 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:03:31,996 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 11:03:31,997 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 11:03:32,127 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:13,624 INFO (StartupInfoLogger.java:48)- Starting ComController on WIN-EF8A21RTJV3 with PID 5696 (E:\memorialTablet\memorialTablet-java\target\classes started by Administrator in E:\memorialTablet)
+2017-11-04 11:04:13,628 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-11-04 11:04:13,629 INFO (SpringApplication.java:666)- No active profile set, falling back to default profiles: default
+2017-11-04 11:04:16,795 INFO (StartupInfoLogger.java:57)- Started ComController in 3.562 seconds (JVM running for 4.26)
+2017-11-04 11:04:23,833 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:04:23,835 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:04:24,303 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:24,305 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:25,397 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:04:25,398 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:04:25,527 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:25,528 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:26,549 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:04:26,550 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:04:26,693 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:26,694 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:27,713 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:04:27,714 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:04:27,857 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:27,858 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:28,878 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 11:04:28,879 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 11:04:29,019 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:29,020 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:30,037 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 11:04:30,038 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 11:04:30,183 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:30,184 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:31,200 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 11:04:31,201 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 11:04:31,347 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:31,348 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:32,365 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 11:04:32,366 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 11:04:32,511 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:32,512 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:33,531 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 11:04:33,532 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 11:04:33,675 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:33,676 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:34,695 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:on closeDelayTime:300
+2017-11-04 11:04:34,696 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:on closeDelayTime:300
+2017-11-04 11:04:34,839 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:34,840 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:35,859 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:on closeDelayTime:300
+2017-11-04 11:04:35,860 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:on closeDelayTime:300
+2017-11-04 11:04:36,002 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:36,003 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:04:37,020 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:on closeDelayTime:300
+2017-11-04 11:04:37,021 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:on closeDelayTime:300
+2017-11-04 11:04:37,165 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:04:37,166 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:05:24,082 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:05:24,083 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:05:24,222 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:24,222 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:05:25,233 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:05:25,234 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:05:25,365 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:25,365 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:05:26,377 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:05:26,379 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:05:26,513 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:26,515 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:05:27,544 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:05:27,545 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:05:27,694 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:27,696 ERROR (ComDataUtil.java:53)- sendComData Exception
+java.lang.NullPointerException: null
+	at com.shenhua.memorial.tablet.util.SerialTool.byte2Hex(SerialTool.java:170)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:38)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 11:05:39,548 INFO (StartupInfoLogger.java:48)- Starting ComController on WIN-EF8A21RTJV3 with PID 4540 (E:\memorialTablet\memorialTablet-java\target\classes started by Administrator in E:\memorialTablet)
+2017-11-04 11:05:39,552 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-11-04 11:05:39,553 INFO (SpringApplication.java:666)- No active profile set, falling back to default profiles: default
+2017-11-04 11:05:42,841 INFO (StartupInfoLogger.java:57)- Started ComController in 3.69 seconds (JVM running for 4.211)
+2017-11-04 11:05:46,709 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:05:46,712 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:300
+2017-11-04 11:05:47,163 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:47,488 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:300
+2017-11-04 11:05:47,488 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:300
+2017-11-04 11:05:47,737 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:48,290 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:05:48,291 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:on closeDelayTime:300
+2017-11-04 11:05:48,439 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:48,741 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:off closeDelayTime:300
+2017-11-04 11:05:48,742 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:1 flag:off closeDelayTime:300
+2017-11-04 11:05:48,883 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:49,457 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:05:49,458 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:on closeDelayTime:300
+2017-11-04 11:05:49,599 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:49,900 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:off closeDelayTime:300
+2017-11-04 11:05:49,901 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:2 flag:off closeDelayTime:300
+2017-11-04 11:05:50,044 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:50,615 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:05:50,616 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:on closeDelayTime:300
+2017-11-04 11:05:50,761 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:51,063 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:off closeDelayTime:300
+2017-11-04 11:05:51,064 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:3 flag:off closeDelayTime:300
+2017-11-04 11:05:51,203 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:51,778 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 11:05:51,779 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:on closeDelayTime:300
+2017-11-04 11:05:51,919 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:52,221 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:off closeDelayTime:300
+2017-11-04 11:05:52,222 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:4 flag:off closeDelayTime:300
+2017-11-04 11:05:52,362 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:52,936 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 11:05:52,937 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:on closeDelayTime:300
+2017-11-04 11:05:53,079 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:53,380 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:off closeDelayTime:300
+2017-11-04 11:05:53,384 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:5 flag:off closeDelayTime:300
+2017-11-04 11:05:53,524 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:54,096 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 11:05:54,097 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:on closeDelayTime:300
+2017-11-04 11:05:54,240 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:54,541 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:off closeDelayTime:300
+2017-11-04 11:05:54,542 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:6 flag:off closeDelayTime:300
+2017-11-04 11:05:54,684 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:55,256 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 11:05:55,257 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:on closeDelayTime:300
+2017-11-04 11:05:55,401 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:55,702 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:off closeDelayTime:300
+2017-11-04 11:05:55,703 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:7 flag:off closeDelayTime:300
+2017-11-04 11:05:55,845 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:56,417 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 11:05:56,418 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:on closeDelayTime:300
+2017-11-04 11:05:56,560 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:56,861 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:off closeDelayTime:300
+2017-11-04 11:05:56,862 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:8 flag:off closeDelayTime:300
+2017-11-04 11:05:57,004 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:57,576 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:on closeDelayTime:300
+2017-11-04 11:05:57,577 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:on closeDelayTime:300
+2017-11-04 11:05:57,719 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:58,020 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:off closeDelayTime:300
+2017-11-04 11:05:58,021 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:9 flag:off closeDelayTime:300
+2017-11-04 11:05:58,163 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:58,736 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:on closeDelayTime:300
+2017-11-04 11:05:58,737 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:on closeDelayTime:300
+2017-11-04 11:05:58,878 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:59,179 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:off closeDelayTime:300
+2017-11-04 11:05:59,180 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:10 flag:off closeDelayTime:300
+2017-11-04 11:05:59,322 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:05:59,894 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:on closeDelayTime:300
+2017-11-04 11:05:59,895 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:on closeDelayTime:300
+2017-11-04 11:06:00,039 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:00,340 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:off closeDelayTime:300
+2017-11-04 11:06:00,341 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:11 flag:off closeDelayTime:300
+2017-11-04 11:06:00,483 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:01,054 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:on closeDelayTime:300
+2017-11-04 11:06:01,055 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:on closeDelayTime:300
+2017-11-04 11:06:01,200 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:01,501 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:off closeDelayTime:300
+2017-11-04 11:06:01,502 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:12 flag:off closeDelayTime:300
+2017-11-04 11:06:01,646 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:02,216 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:on closeDelayTime:300
+2017-11-04 11:06:02,217 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:on closeDelayTime:300
+2017-11-04 11:06:02,362 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:02,663 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:off closeDelayTime:300
+2017-11-04 11:06:02,664 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:13 flag:off closeDelayTime:300
+2017-11-04 11:06:02,808 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:03,378 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:on closeDelayTime:300
+2017-11-04 11:06:03,379 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:on closeDelayTime:300
+2017-11-04 11:06:03,525 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:03,826 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:off closeDelayTime:300
+2017-11-04 11:06:03,827 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:14 flag:off closeDelayTime:300
+2017-11-04 11:06:03,969 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:04,552 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:on closeDelayTime:300
+2017-11-04 11:06:04,553 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:on closeDelayTime:300
+2017-11-04 11:06:04,700 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:05,001 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:off closeDelayTime:300
+2017-11-04 11:06:05,002 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:15 flag:off closeDelayTime:300
+2017-11-04 11:06:05,144 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:05,724 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:on closeDelayTime:300
+2017-11-04 11:06:05,725 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:on closeDelayTime:300
+2017-11-04 11:06:05,860 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:06,161 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:off closeDelayTime:300
+2017-11-04 11:06:06,162 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:16 flag:off closeDelayTime:300
+2017-11-04 11:06:06,303 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:06,875 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:on closeDelayTime:300
+2017-11-04 11:06:06,876 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:on closeDelayTime:300
+2017-11-04 11:06:07,017 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:07,318 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:off closeDelayTime:300
+2017-11-04 11:06:07,319 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:17 flag:off closeDelayTime:300
+2017-11-04 11:06:07,461 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:08,033 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:on closeDelayTime:300
+2017-11-04 11:06:08,034 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:on closeDelayTime:300
+2017-11-04 11:06:08,177 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:08,478 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:off closeDelayTime:300
+2017-11-04 11:06:08,479 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:18 flag:off closeDelayTime:300
+2017-11-04 11:06:08,621 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:09,193 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:on closeDelayTime:300
+2017-11-04 11:06:09,194 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:on closeDelayTime:300
+2017-11-04 11:06:09,337 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:09,638 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:off closeDelayTime:300
+2017-11-04 11:06:09,639 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:19 flag:off closeDelayTime:300
+2017-11-04 11:06:09,782 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:10,352 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:on closeDelayTime:300
+2017-11-04 11:06:10,353 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:on closeDelayTime:300
+2017-11-04 11:06:10,497 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:10,798 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:off closeDelayTime:300
+2017-11-04 11:06:10,799 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:20 flag:off closeDelayTime:300
+2017-11-04 11:06:10,943 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:11,513 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:on closeDelayTime:300
+2017-11-04 11:06:11,514 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:on closeDelayTime:300
+2017-11-04 11:06:11,659 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:11,960 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:off closeDelayTime:300
+2017-11-04 11:06:11,961 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:21 flag:off closeDelayTime:300
+2017-11-04 11:06:12,103 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:12,674 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:on closeDelayTime:300
+2017-11-04 11:06:12,675 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:on closeDelayTime:300
+2017-11-04 11:06:12,819 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:13,120 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:off closeDelayTime:300
+2017-11-04 11:06:13,121 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:22 flag:off closeDelayTime:300
+2017-11-04 11:06:13,264 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:13,834 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:on closeDelayTime:300
+2017-11-04 11:06:13,835 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:on closeDelayTime:300
+2017-11-04 11:06:13,980 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:14,281 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:off closeDelayTime:300
+2017-11-04 11:06:14,282 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:23 flag:off closeDelayTime:300
+2017-11-04 11:06:14,424 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:14,995 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:on closeDelayTime:300
+2017-11-04 11:06:14,996 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:on closeDelayTime:300
+2017-11-04 11:06:15,138 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:15,439 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:off closeDelayTime:300
+2017-11-04 11:06:15,440 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:24 flag:off closeDelayTime:300
+2017-11-04 11:06:15,582 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:16,152 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:on closeDelayTime:300
+2017-11-04 11:06:16,153 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:on closeDelayTime:300
+2017-11-04 11:06:16,298 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:16,599 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:off closeDelayTime:300
+2017-11-04 11:06:16,600 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:25 flag:off closeDelayTime:300
+2017-11-04 11:06:16,741 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:17,313 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:on closeDelayTime:300
+2017-11-04 11:06:17,314 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:on closeDelayTime:300
+2017-11-04 11:06:17,456 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:17,757 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:off closeDelayTime:300
+2017-11-04 11:06:17,758 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:26 flag:off closeDelayTime:300
+2017-11-04 11:06:17,900 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:18,471 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:on closeDelayTime:300
+2017-11-04 11:06:18,472 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:on closeDelayTime:300
+2017-11-04 11:06:18,616 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:18,917 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:off closeDelayTime:300
+2017-11-04 11:06:18,918 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:27 flag:off closeDelayTime:300
+2017-11-04 11:06:19,059 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:19,631 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:on closeDelayTime:300
+2017-11-04 11:06:19,633 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:on closeDelayTime:300
+2017-11-04 11:06:19,775 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:20,076 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:off closeDelayTime:300
+2017-11-04 11:06:20,077 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:28 flag:off closeDelayTime:300
+2017-11-04 11:06:20,219 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:20,790 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:on closeDelayTime:300
+2017-11-04 11:06:20,791 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:on closeDelayTime:300
+2017-11-04 11:06:20,934 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:21,235 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:off closeDelayTime:300
+2017-11-04 11:06:21,236 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:29 flag:off closeDelayTime:300
+2017-11-04 11:06:21,378 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:21,949 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:on closeDelayTime:300
+2017-11-04 11:06:21,950 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:on closeDelayTime:300
+2017-11-04 11:06:22,093 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:22,394 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:off closeDelayTime:300
+2017-11-04 11:06:22,395 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:30 flag:off closeDelayTime:300
+2017-11-04 11:06:22,535 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:23,107 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:300
+2017-11-04 11:06:23,108 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:300
+2017-11-04 11:06:23,251 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:06:23,553 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:300
+2017-11-04 11:06:23,554 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:300
+2017-11-04 11:06:23,695 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:24:21,590 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:30000
+2017-11-04 11:24:21,591 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:on closeDelayTime:30000
+2017-11-04 11:24:21,732 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:24:41,546 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:30000
+2017-11-04 11:24:41,547 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:30000
+2017-11-04 11:24:41,676 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:24:51,733 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:30000
+2017-11-04 11:24:51,734 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:0 flag:off closeDelayTime:30000
+2017-11-04 11:24:51,872 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:25:11,677 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:30000
+2017-11-04 11:25:11,678 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:30000
+2017-11-04 11:25:11,820 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:27:48,267 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:27:48,269 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:27:48,409 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:27:53,411 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:27:53,412 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:27:53,554 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:27:55,980 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:27:55,981 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:27:56,123 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:27:59,625 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:27:59,627 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:27:59,766 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:28:01,125 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:28:01,127 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:28:01,267 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:28:02,263 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:28:02,264 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 11:28:02,398 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:28:04,768 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:28:04,768 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:28:04,899 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 11:28:07,399 INFO (ComController.java:79)- CloseComTask run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:28:07,400 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:off closeDelayTime:5000
+2017-11-04 11:28:07,534 INFO (ComDataUtil.java:35)- sendComData error bytes null
+2017-11-04 14:46:44,666 INFO (StartupInfoLogger.java:48)- Starting ComController on WIN-EF8A21RTJV3 with PID 4380 (E:\memorialTablet\memorialTablet-java\target\classes started by Administrator in E:\memorialTablet)
+2017-11-04 14:46:44,671 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-11-04 14:46:44,671 INFO (SpringApplication.java:666)- No active profile set, falling back to default profiles: default
+2017-11-04 14:46:48,607 INFO (StartupInfoLogger.java:57)- Started ComController in 4.834 seconds (JVM running for 5.823)
+2017-11-04 14:46:57,373 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 14:46:57,384 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 14:46:57,760 ERROR (ComDataUtil.java:48)- sendComData NoSuchPortException
+gnu.io.NoSuchPortException: null
+	at gnu.io.CommPortIdentifier.getPortIdentifier(CommPortIdentifier.java:269)
+	at com.shenhua.memorial.tablet.util.SerialTool.openPort(SerialTool.java:69)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:30)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-04 14:47:02,751 INFO (ComController.java:30)- index run param ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 14:47:02,752 INFO (ComDataUtil.java:21)- sendComData model ComModel => comPort: COM12 baudRate:19200 comModuleId:16 comModuleAddress:31 flag:on closeDelayTime:5000
+2017-11-04 14:47:02,925 ERROR (ComDataUtil.java:48)- sendComData NoSuchPortException
+gnu.io.NoSuchPortException: null
+	at gnu.io.CommPortIdentifier.getPortIdentifier(CommPortIdentifier.java:269)
+	at com.shenhua.memorial.tablet.util.SerialTool.openPort(SerialTool.java:69)
+	at com.shenhua.memorial.tablet.util.ComDataUtil.sendComData(ComDataUtil.java:30)
+	at com.shenhua.memorial.tablet.controller.ComController.index(ComController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
