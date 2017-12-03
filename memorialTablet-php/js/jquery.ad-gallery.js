@@ -382,7 +382,7 @@
         }
       ).mouseout(
         function(e) {
-          $(this).find('div').hide();
+          $(this).find('div').show(); // modify by chbrobin hide to show
         }
       ).click(
         function() {

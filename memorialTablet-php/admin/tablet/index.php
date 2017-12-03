@@ -78,6 +78,7 @@
 				<th field="memorialday" width="50">祭日</th>
 				<th field="native_place" width="50">籍贯</th>
 				<th field="address" width="50">原住址</th>
+					<th field="com_info" width="50">端口		模块		地址</th>
 			</tr>
 		</thead>
 	</table>

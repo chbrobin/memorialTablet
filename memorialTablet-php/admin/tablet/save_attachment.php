@@ -49,7 +49,7 @@ if($attachment_type == 'video') {
 
     $up -> set("path", "../../../data/attachment/tablet/$tablet_id/image");
     $up -> set("allowtype", array("gif", "png", "jpg","jpeg"));
-    $up -> set("maxsize", 1 * 1024 * 1024); // 1M
+    $up -> set("maxsize", 10 * 1024 * 1024); // 1M
     $up -> set("mkthumbnailflag", true);
     if (!empty($_FILES["image_url"])) {
         if ($up->upload("image_url")) {

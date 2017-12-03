@@ -70,7 +70,7 @@
 		<?php foreach ($items as $obj) { ?>
         <div class="media">
                 <p style="text-align: center;">
-                    <a href="detail.php?id=<?php echo $obj -> id; echo "&$searchParam"; ?>"><img src="<?php echo $attachment_url; echo $obj -> avatar_url; ?>" class="img-responsive thumbnail center-block " width="150" height="100"></a><br/>
+                    <a href="detail.php?id=<?php echo $obj -> id; echo "&$searchParam"; ?>"><img src="<?php echo $attachment_url; echo $obj -> avatar_url; ?>" class="img-responsive thumbnail center-block " width="200"></a><br/>
                     <a href="detail.php?id=<?php echo $obj -> id; echo "&$searchParam"; ?>"><?php echo $obj -> realname; ?></a>
                 </p>
         </div>

@@ -86,11 +86,9 @@
     /******************************************** 视频 ********************************************/
     function deleteAttachment(id, attachment_id) {
         var attachmentDiv = $("#"+attachment_id).parent();
-        /**
         $.get('destroy_attachment.php',{id:id},function(result){
             attachmentDiv.fadeOut(500);
         },'json');
-        */
         $("#dlgTabletSecond").dialog('open');
         return false;
     }
