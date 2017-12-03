@@ -23,6 +23,7 @@ $idcard = !empty($_REQUEST['idcard']) ? htmlspecialchars($_REQUEST['idcard']) : 
               background:center no-repeat fixed url('<?php echo getBgImgUrl('background_image_search', $_config);?>');
               background-size: cover;
               color:#444;
+              font-size:25px;
           }
       </style>
   </head>

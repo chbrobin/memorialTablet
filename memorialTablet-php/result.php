@@ -48,6 +48,7 @@
               background:center no-repeat fixed url('<?php echo getBgImgUrl('background_image_result', $_config);?>');
               background-size: cover;
               color:#444;
+              font-size:25px;
           }
           .media p {
               
@@ -68,10 +69,10 @@
     <div class="container">
 		<?php foreach ($items as $obj) { ?>
         <div class="media">
-                <p>
-                    <a href="detail.php?id=<?php echo $obj -> id; echo "&$searchParam"; ?>"><img src="<?php echo $attachment_url; echo $obj -> avatar_url; ?>" class="img-responsive thumbnail center-block " width="150" height="100"></a>
+                <p style="text-align: center;">
+                    <a href="detail.php?id=<?php echo $obj -> id; echo "&$searchParam"; ?>"><img src="<?php echo $attachment_url; echo $obj -> avatar_url; ?>" class="img-responsive thumbnail center-block " width="150" height="100"></a><br/>
+                    <a href="detail.php?id=<?php echo $obj -> id; echo "&$searchParam"; ?>"><?php echo $obj -> realname; ?></a>
                 </p>
-
         </div>
         <?php } ?>
 		<div class="media">
