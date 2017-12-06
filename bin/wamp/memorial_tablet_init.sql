@@ -17,8 +17,8 @@ CREATE TABLE `memorial_tablet` (
   `interests` varchar(1000) DEFAULT '' COMMENT '兴趣爱好',
   `video_url` varchar(200) DEFAULT '' COMMENT '视频地址',
   `avatar_url` varchar(200) DEFAULT '' COMMENT '头像地址',
-  `create_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
-  `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `create_time` DATETIME NOT NULL DEFAULT '2017-01-01 00:00:00' COMMENT '创建时间',
+  `update_time` DATETIME NOT NULL DEFAULT '2017-01-01 00:00:00',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='经念牌位表';
 
@@ -28,7 +28,7 @@ CREATE TABLE `tablet_attachment` (
   `attachment_type` varchar(50) DEFAULT NULL COMMENT '附件类型',
   `attachment_path` varchar(200) DEFAULT NULL COMMENT '附件路径',
   `memo` text comment '描述',
-  `create_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `create_time` DATETIME NOT NULL DEFAULT '2017-01-01 00:00:00' COMMENT '创建时间',
   PRIMARY KEY (`id`),
   KEY index_tablet_id(`tablet_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '牌位附件信息表';
@@ -46,7 +46,7 @@ CREATE TABLE `url` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `url` varchar(1000) DEFAULT NULL,
   `base_url` varchar(1000) DEFAULT NULL,
-  `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `update_time` TIMESTAMP NOT NULL DEFAULT '2017-01-01 00:00:00' ,
   PRIMARY KEY (`id`),
   UNIQUE KEY (`base_url`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT 'url';
@@ -55,7 +55,7 @@ CREATE TABLE `tablet_config` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `config_key` varchar(50) DEFAULT NULL,
   `config_value` varchar(50) DEFAULT NULL,
-  `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `update_time` TIMESTAMP NOT NULL DEFAULT '2017-01-01 00:00:00' ,
   PRIMARY KEY (`id`),
   UNIQUE KEY (`config_key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '牌位配置信息表';
@@ -67,10 +67,30 @@ CREATE TABLE `operate_log` (
   `object_id` bigint(20) DEFAULT NULL COMMENT '操作对象ID',
   `object_info` varchar(200) DEFAULT NULL COMMENT '操作对象信息',
   `memo` varchar(1000) DEFAULT NULL COMMENT '日志内容',
-  `create_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `create_time` DATETIME NOT NULL DEFAULT '2017-01-01 00:00:00' COMMENT '创建时间',
   PRIMARY KEY (`id`),
   KEY index_object_id(`object_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '操作日志表';
+
+CREATE TABLE `memorial_tablet` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `com_port` varchar(50) DEFAULT NULL COMMENT 'USB COM端口',
+  `com_module_id` varchar(50) DEFAULT NULL COMMENT 'COM 模块ID',
+  `com_module_address` varchar(50) DEFAULT NULL COMMENT 'COM 模块地址',
+  `realname` varchar(50) DEFAULT '' COMMENT '姓名',
+  `idcard` varchar(50) DEFAULT '' COMMENT '身份证',
+  `tablet_number` varchar(50) DEFAULT '' COMMENT '牌位号',
+  `birthday` varchar(50) DEFAULT '' COMMENT '生日',
+  `memorialday` varchar(50) DEFAULT '' COMMENT '祭日',
+  `native_place` varchar(200) DEFAULT '' COMMENT '籍贯',
+  `address` varchar(500) DEFAULT '' COMMENT '原住址',
+  `brief` varchar(1000) DEFAULT '' COMMENT '生平简介',
+  `achievement` varchar(1000) DEFAULT '' COMMENT '主要成就',
+  `interests` varchar(1000) DEFAULT '' COMMENT '兴趣爱好',
+  `video_url` varchar(200) DEFAULT '' COMMENT '视频地址',
+  `avatar_url` varchar(200) DEFAULT '' COMMENT '头像地址',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COMMENT='经念牌位表';
 
 INSERT INTO memorial_tablet(id,create_time,update_time) VALUES(1, '2017-11-01 00:00:00', '2017-11-01 00:00:00');
 INSERT INTO memorial_tablet(id,create_time,update_time) VALUES(2, '2017-11-01 00:00:00', '2017-11-01 00:00:00');
