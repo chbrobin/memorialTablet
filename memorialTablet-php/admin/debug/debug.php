@@ -25,8 +25,6 @@ if($start > $end) {
 }
 
 $controlResult = lightControl($_config['com_soa_host'],$com_port, $baud_rate, $com_module_id, $com_module_address_id, $flag, $close_delay_time);
-// $controlResult = lightControl($_config['com_soa_host'],$com_port, $baud_rate, $com_module_id, $com_module_address_id, $flag, $close_delay_time);
-// $controlResult = lightControl($_config['com_soa_host'],$com_port, $baud_rate, $com_module_id, $com_module_address_id, $flag, $close_delay_time);
 
 if($start == $end) {
     $controlResult['exec_flag'] = 0;
@@ -38,6 +36,9 @@ if($start == $end) {
 $next = $start + 1;
 $controlResult['jscode'] = "reloadPage($next)";
 $controlResult['start'] = $start;
+$com_port_id = getComPortIdByComPort($com_port);
+$tablet_number = getTabletNumberByComInfo($com_port_id, $com_module_id, $com_module_address_id);
+$controlResult['message'] = "牌位号:$tablet_number"."==>".$controlResult['message'];
 $controlResult['exec_flag'] = 1;
 echo json_encode($controlResult);
 ?>

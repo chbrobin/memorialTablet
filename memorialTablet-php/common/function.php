@@ -52,6 +52,17 @@ function getBgImgUrl($key,$_config) {
     return $bg_url;
 }
 
+function getTabletNumberByComInfo($comPortId,$comModuleId, $comModuleAddress) {
+    $rs = mysql_query("SELECT tablet_number FROM tablet_com FROM com_port_id = '$comPortId' AND com_module_id = '$comModuleId' AND com_module_address = '$comModuleAddress' LIMIT 1");
+    if($rs) {
+        $obj = mysql_fetch_object($rs);
+        if($obj) {
+            return $obj -> tablet_number;
+        }
+    }
+    return "NULL";
+}
+
 function send_post($url, $post_data) {
     $postdata = http_build_query($post_data);
     $options = array(
