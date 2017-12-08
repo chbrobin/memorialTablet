@@ -34,11 +34,13 @@
 	$rs = mysql_query("select count(*) from memorial_tablet where 1=1 $wheresql ");
 	$row = mysql_fetch_row($rs);
 	$result["total"] = $row[0];
-	$rs = mysql_query("select * from memorial_tablet where 1=1 $wheresql limit $offset,$rows");
+	$rs = mysql_query("select mt.*, tc.com_port_id, tc.com_module_id, tc.com_module_address from memorial_tablet mt
+						left join tablet_com tc on mt.tablet_number = tc.tablet_number
+						where 1=1 $wheresql limit $offset,$rows");
 	
 	$items = array();
 	while($row = mysql_fetch_object($rs)){
-		$comPortId = intval($row -> com_port);
+		$comPortId = intval($row -> com_port_id);
 		$comPort = getComPortByComPortId($comPortId);
 		$row -> com_info  = $comPort."		".$row -> com_module_id."		".$row -> com_module_address;
 		array_push($items, $row);

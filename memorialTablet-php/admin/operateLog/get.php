@@ -23,21 +23,6 @@
 		array_push($tablet_ids, $row -> object_id);
 	}
 
-    /**
-    $ids = join(",", array_unique($tablet_ids));
-	$rs_tablet = mysql_query("select id, realname from memorial_tablet where id in ($ids)");
-	$realname_arr = array();
-    while($row_tablet = mysql_fetch_object($rs_tablet)){
-        $object_id = $row_tablet -> id;
-        $realname_arr["object_info_$object_id"] = $row_tablet -> realname;
-    }
-
-    foreach($items as $item) {
-        $object_id = $item -> object_id;
-        $k = "object_info_$object_id";
-        $item -> object_info =  $realname_arr["$k"];
-    }
-    */
 	$result["rows"] = $items;
 	echo json_encode($result);
 ?>

@@ -24,8 +24,6 @@ if($cnt > 0) {
     $result = @mysql_query($sql);
 }
 
-$tabletSql = "update memorial_tablet set update_time = now() com_port = '$com_port_index' and com_module_id='$com_module_id' and com_module_address = '$com_module_address_id' where tablet_number='$tablet_number' ";
-$tabletResult = @mysql_query($tabletSql);
 echo $com_module_address_id.'==>'.$tablet_number;
 ?>
 
