@@ -1,6 +1,6 @@
 <?php
 $_config = array();
-$_config['db']['dbhost'] = "localhost";
+$_config['db']['dbhost'] = "127.0.0.1";
 $_config['db']['dbuser'] = "root";
 $_config['db']['dbpwd'] = "XX01FghikkDF";
 
