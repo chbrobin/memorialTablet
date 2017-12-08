@@ -17,15 +17,16 @@ include 'common/checklogin.php';
             {"menuid":"1","icon":"icon-sys","menuname":"数据管理",
                 "menus":[
                     {"menuid":"1","menuname":"牌位管理","icon":"icon-role","url":"tablet/index.php"},
-                    {"menuid":"2","menuname":"系统配置","icon":"icon-set","url":"config/index.php"},
-                    {"menuid":"3","menuname":"背景设置","icon":"icon-set","url":"config/bgconfig.php"},
-                    {"menuid":"6","menuname":"操作日志","icon":"icon-log","url":"operateLog/index.php"},
-                    {"menuid":"7","menuname":"使用说明","icon":"icon-nav","url":"../help/index.html", "target":"_blank"}
+                    {"menuid":"2","menuname":"背景设置","icon":"icon-set","url":"config/bgconfig.php?bgType=upload"},
+                    {"menuid":"3","menuname":"参数设置","icon":"icon-set","url":"config/index.php?configType=param"},
+                    {"menuid":"4","menuname":"操作日志","icon":"icon-log","url":"operateLog/index.php"},
+                    {"menuid":"5","menuname":"使用说明","icon":"icon-nav","url":"../help/index.html", "target":"_blank"}
                 ]
-            },{"menuid":"2","icon":"icon-sys","menuname":"调试管理",
+            },{"menuid":"2","icon":"icon-sys","menuname":"系统管理",
                 "menus":[
-                    {"menuid":"1","menuname":"牌位调试","icon":"icon-set","url":"debug/tablet_index.php","target":"_blank"},
-                    {"menuid":"2","menuname":"灯控调试","icon":"icon-set","url":"debug/index.php","target":"_blank"},
+                    {"menuid":"1","menuname":"系统配置","icon":"icon-set","url":"config/index.php?configType=sys"},
+                    {"menuid":"2","menuname":"牌位调试","icon":"icon-set","url":"debug/tablet_index.php","target":"_blank"},
+                    {"menuid":"3","menuname":"灯控调试","icon":"icon-set","url":"debug/index.php","target":"_blank"},
                 ]
             }
         ]};

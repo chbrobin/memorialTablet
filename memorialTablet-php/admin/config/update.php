@@ -21,7 +21,7 @@
             }
         }
         header("Location:bgconfig.php?bgType=$bgType&bgpage=$bgpage&successMsg=配置更新成功");
-    } else if($configType = 'sys') {
+    } else if($configType == 'sys' || $configType == 'param') {
         $configs = $_POST["config"];
         foreach($configs as $key=>$value) {
             update_config($key, $value);

@@ -1,1 +1,0 @@
-"C:\Program Files\Internet Explorer\iexplore.exe" -k http://192.168.1.102/memorialTablet/
