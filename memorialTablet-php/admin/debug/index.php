@@ -105,7 +105,9 @@ $debug_type = empty($_REQUEST['debug_type']) ? 'com': $_REQUEST['debug_type'];
 
         <div class="fitem">
             <span id="tip"></span><br/>
+            <?php if($debug_type == 'com') {?>
             <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="start()" style="width:90px" id="start_link">开始</a>
+            <?php } ?>
             <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="goon()" style="width:90px;display:none;" id="goon_link">继续</a>
             <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="pause()" style="width:90px;display:none;" id="pause_link">暂停</a>
             <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="clearlog()" style="width:90px;" id="clearlog_link">请空日志</a>
