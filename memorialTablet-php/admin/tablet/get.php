@@ -38,11 +38,8 @@
 	
 	$items = array();
 	while($row = mysql_fetch_object($rs)){
-		$comPortIndex = intval($row -> com_port) -1;
-		if($comPortIndex < 0) {
-			$comPortIndex = 0;
-		}
-		$comPort = $com_port_items[$comPortIndex];
+		$comPortId = intval($row -> com_port);
+		$comPort = getComPortByComPortId($comPortId);
 		$row -> com_info  = $comPort."		".$row -> com_module_id."		".$row -> com_module_address;
 		array_push($items, $row);
 	}

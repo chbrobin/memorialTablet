@@ -13,12 +13,6 @@
 	$com_module_address_id = !empty($_REQUEST['com_module_address_id']) ? htmlspecialchars($_REQUEST['com_module_address_id']) : '';
 
 	$attachment_url = $_config['attachment_url'];
-    $com_ports = getTabletConfigValue('com_ports');
-    if($com_ports) {
-        $com_port_items = explode("|", $com_ports);
-    } else {
-        $com_port_items = array();
-    }
 ?>
 <!DOCTYPE html>
 <html>

@@ -25,8 +25,7 @@
         $com_port_items = array();
     }
 
-    $comPortIndex = $comPortId -1;
-    $comPort = $com_port_items[$comPortIndex];
+    $comPort = getComPortByComPortId($comPortId);
     $controlResult = lightControl($_config['com_soa_host'],$comPort, $baudRate, $comModuleId, $comModuleAddress, $flag, $closeDelayTime);
     addOperateLog(0, 1, $id, $realname, $controlResult['message']);
     echo json_encode($controlResult);

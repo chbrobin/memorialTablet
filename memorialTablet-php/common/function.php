@@ -11,6 +11,37 @@ function getTabletConfigValue($key) {
     return $obj ? $obj -> config_value : "";
 }
 
+function getComPortIndex($com_port) {
+    $com_ports = getTabletConfigValue('com_ports');
+    if($com_ports) {
+        $com_port_items = explode("|", $com_ports);
+    } else {
+        $com_port_items = array();
+    }
+    for($i = 0 ; $i < sizeof($com_port_items); $i ++) {
+        if($com_port_items[$i] == $com_port) {
+            return $i + 1;
+        }
+    }
+    return -1;
+}
+
+function getComPortByComPortId($comPortId) {
+    $com_ports = getTabletConfigValue('com_ports');
+    if($com_ports) {
+        $com_port_items = explode("|", $com_ports);
+    } else {
+        $com_port_items = array();
+    }
+
+    $comPortIndex = $comPortId -1;
+    if($comPortIndex < 0 || $comPortIndex > sizeof($com_port_items)) {
+        return "UNKNOW_COM";
+    }
+    $comPort = $com_port_items[$comPortIndex];
+    return $comPort;
+}
+
 function getBgImgUrl($key,$_config) {
     $rs = mysql_query("SELECT config_value, update_time FROM tablet_config WHERE config_key = '$key'");
     $obj = mysql_fetch_object($rs);

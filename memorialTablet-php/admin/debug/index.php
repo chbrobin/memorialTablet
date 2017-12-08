@@ -45,17 +45,15 @@ $debug_type = empty($_REQUEST['debug_type']) ? 'com': $_REQUEST['debug_type'];
 <div class="easyui-dialog" style="width:800px;height:600px;padding:10px 20px;" closed="true" buttons="#dlg-buttons-tablet">
     <form id="form1" action="index.php">
         <div class="fitem">
-            <h3>
+            <h1>
             <?php if($debug_type == 'tablet') {?>
-                <a href="?debug_type=com">COM灯控</a> &nbsp; 牌位号核对
+               牌位号核对
             <?php } else if($debug_type == 'com') { ?>
-                COM灯控 &nbsp; <a href="?debug_type=tablet">牌位号核对</a>
+                COM灯控
             <?php } ?>
-            </h3>
+            </h1>
         </div>
-        <div class="fitem">
-            &nbsp;
-        </div>
+
         <div class="fitem">
             <label>COM端口：</label>
             <select name="com_port">
