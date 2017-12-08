@@ -10,7 +10,8 @@ $rs = mysql_query("select mt.id, mt.tablet_number, tc.com_port_id, tc.com_module
                    order by mt.tablet_number asc limit $db_start,1 ");
 $obj = mysql_fetch_object($rs);
 if($obj) {
-    $com_port = $obj -> com_port;
+    $com_port_id = $obj -> com_port_id;
+    $com_port = getComPortByComPortId($com_port_id);
     $com_module_id = $obj -> com_module_id;
     $com_module_address_id = $obj -> com_module_address;
 }

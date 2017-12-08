@@ -9,7 +9,7 @@
                        where mt.id = $id ");
     $obj = mysql_fetch_object($rs);
     if($obj) {
-        $comPortId = intval($obj -> com_port);
+        $comPortId = intval($obj -> com_port_id);
         $comModuleId = $obj -> com_module_id;
         $comModuleAddress = $obj -> com_module_address;
         $realname = $obj -> realname;

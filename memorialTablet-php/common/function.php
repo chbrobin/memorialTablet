@@ -11,7 +11,7 @@ function getTabletConfigValue($key) {
     return $obj ? $obj -> config_value : "";
 }
 
-function getComPortIndex($com_port) {
+function getComPortIdByComPort($com_port) {
     $com_ports = getTabletConfigValue('com_ports');
     if($com_ports) {
         $com_port_items = explode("|", $com_ports);

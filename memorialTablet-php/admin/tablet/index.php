@@ -8,10 +8,6 @@
 	$realname = !empty($_REQUEST['realname']) ? htmlspecialchars($_REQUEST['realname']) : '';
 	$tablet_number = !empty($_REQUEST['tablet_number']) ? htmlspecialchars($_REQUEST['tablet_number']) : '';
 	$idcard = !empty($_REQUEST['idcard']) ? htmlspecialchars($_REQUEST['idcard']) : '';
-	$com_port = !empty($_REQUEST['com_port']) ? htmlspecialchars($_REQUEST['com_port']) : '';
-	$com_module_id = !empty($_REQUEST['com_module_id']) ? htmlspecialchars($_REQUEST['com_module_id']) : '';
-	$com_module_address_id = !empty($_REQUEST['com_module_address_id']) ? htmlspecialchars($_REQUEST['com_module_address_id']) : '';
-
 	$attachment_url = $_config['attachment_url'];
 ?>
 <!DOCTYPE html>
@@ -59,7 +55,7 @@
 	</form>
 	</p>
 	<table id="dg" title="牌位列表" class="easyui-datagrid" style="width:100%;height:620px;"
-			url="get.php?<?php echo "id=$id&realname=$realname&tablet_number=$tablet_number&idcard=$idcard&com_port=$com_port&com_module_id=$com_module_id&com_module_address_id=$com_module_address_id"?>"
+			url="get.php?<?php echo "id=$id&realname=$realname&tablet_number=$tablet_number&idcard=$idcard"?>"
 			toolbar="#toolbar" pagination="true" pageSize="20"
 			rownumbers="true" fitColumns="true" singleSelect="true">
 		<thead>
