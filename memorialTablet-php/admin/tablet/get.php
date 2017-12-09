@@ -12,16 +12,16 @@
 	$idcard = htmlspecialchars($_REQUEST['idcard']);
 	$wheresql = "";
 	if($id != "") {
-        $wheresql = "$wheresql and id = '$id' ";
+        $wheresql = "$wheresql and mt.id = '$id' ";
 	}
 	if($realname != "") {
-		$wheresql = "$wheresql and realname = '$realname' ";
+		$wheresql = "$wheresql and mt.realname = '$realname' ";
 	}
 	if($tablet_number != "") {
-		$wheresql = "$wheresql and tablet_number = '$tablet_number' ";
+		$wheresql = "$wheresql and mt.tablet_number = '$tablet_number' ";
 	}
 	if($idcard != "") {
-		$wheresql = "$wheresql and idcard = '$idcard' ";
+		$wheresql = "$wheresql and mt.idcard = '$idcard' ";
 	}
 
 	$com_ports = getTabletConfigValue('com_ports');
@@ -31,9 +31,10 @@
 		$com_port_items = array();
 	}
 
-	$rs = mysql_query("select count(*) from memorial_tablet where 1=1 $wheresql ");
+	$rs = mysql_query("select count(*) from memorial_tablet mt where 1=1 $wheresql ");
 	$row = mysql_fetch_row($rs);
 	$result["total"] = $row[0];
+
 	$rs = mysql_query("select mt.*, tc.com_port_id, tc.com_module_id, tc.com_module_address from memorial_tablet mt
 						left join tablet_com tc on mt.tablet_number = tc.tablet_number
 						where 1=1 $wheresql limit $offset,$rows");
