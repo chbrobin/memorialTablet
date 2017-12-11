@@ -106,7 +106,7 @@ if($com_ports) {
     function reloadPage(start) {
         var interval_time = parseInt($("#interval_time").val());
         $.ajax({
-            url: 'debug_tablet.php?close_delay_time=1000&lighten_type=on&start='+ start + '&end=1000&' + $('#form1').serialize(),
+            url: 'debug_tablet.php?close_delay_time=3600000&lighten_type=on&start='+ start + '&end=1025&' + $('#form1').serialize(),
             type: 'GET',
             async: true,
             cache: false,

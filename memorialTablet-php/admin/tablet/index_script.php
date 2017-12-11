@@ -229,7 +229,7 @@
     function lighten(flag){
         var row = $('#dg').datagrid('getSelected');
         if (row){
-            $.post('../../lighten.php',{id:row.id, flag:'on',closeDelayTime:60000},function(result){
+            $.post('../../lighten.php',{id:row.id, flag:flag,closeDelayTime:0},function(result){
                 if (result.error == 0){
                     $('#dg').datagrid('reload');	// reload the user data
                 } else {

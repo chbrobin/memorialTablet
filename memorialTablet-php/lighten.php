@@ -4,6 +4,7 @@
 
     $id = intval($_REQUEST['id']);
     $flag = $_REQUEST['flag'];
+
     $rs = mysql_query("select mt.id, mt.realname, tc.com_port_id, tc.com_module_id, tc.com_module_address from memorial_tablet mt
                        left join tablet_com tc on mt.tablet_number = tc.tablet_number
                        where mt.id = $id ");

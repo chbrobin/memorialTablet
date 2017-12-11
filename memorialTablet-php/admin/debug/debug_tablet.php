@@ -5,9 +5,7 @@ $lighten_type = !empty($_REQUEST['lighten_type']) ? htmlspecialchars($_REQUEST['
 $ids = !empty($_REQUEST['ids']) ? htmlspecialchars($_REQUEST['ids']) : '';
 $start = intval($_REQUEST['start']);
 $db_start = $start - 1;
-$rs = mysql_query("select mt.id, mt.tablet_number, tc.com_port_id, tc.com_module_id, tc.com_module_address from memorial_tablet mt
-                   left join tablet_com tc on mt.tablet_number =  tc.tablet_number
-                   order by mt.tablet_number asc limit $db_start,1 ");
+$rs = mysql_query("select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com order by tablet_number asc  limit $db_start,1 ");
 $obj = mysql_fetch_object($rs);
 if($obj) {
     $com_port_id = $obj -> com_port_id;
@@ -47,7 +45,7 @@ if($start == $end) {
 $next = $start + 1;
 $controlResult['jscode'] = "reloadPage($next)";
 $controlResult['start'] = $start;
-$controlResult['id'] = $obj -> id;
+$controlResult['id'] = '';
 $controlResult['tablet_number'] = $obj -> tablet_number;
 $controlResult['exec_flag'] = 1;
 echo json_encode($controlResult);

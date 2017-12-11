@@ -43,7 +43,7 @@ $closeDelayTime = intval(getTabletConfigValue('close_delay_time'));
           color:#444;
       }
       /** 可在此处调整屏幕宽度 */
-      .container{width:1500px}
+      .container{width:1300px}
       table,table tr th, table tr td { border:0px solid #FFFFFF; }
       table {min-height: 25px; line-height: 25px;border-collapse: collapse;}
       #slides {
@@ -166,7 +166,7 @@ $closeDelayTime = intval(getTabletConfigValue('close_delay_time'));
         </div>
         <div class="row">
                 <div class="col-md-3 centered">
-                    <div><img src="<?php echo $attachment_url; echo $result -> avatar_url; ?>" class=" thumbnail center-block" style="  width:100%"/></div>
+                    <div><img src="<?php echo $attachment_url; echo $result -> avatar_url; ?>" class=" thumbnail center-block" style="  width:300px;"/></div>
                     <div  style="text-align: center;">
                     <p><?php echo $result -> realname ?></p>
                     <p><?php echo $result -> birthday ?> ~ <?php echo $result -> memorialday ?></p>

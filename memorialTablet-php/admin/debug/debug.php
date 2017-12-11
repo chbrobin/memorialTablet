@@ -24,7 +24,11 @@ if($start > $end) {
     exit;
 }
 
+
 $controlResult = lightControl($_config['com_soa_host'],$com_port, $baud_rate, $com_module_id, $com_module_address_id, $flag, $close_delay_time);
+
+$controlResult = lightControl($_config['com_soa_host'],$com_port, $baud_rate, $com_module_id, $com_module_address_id, $flag, $close_delay_time);
+
 
 if($start == $end) {
     $controlResult['exec_flag'] = 0;
