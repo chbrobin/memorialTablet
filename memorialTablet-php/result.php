@@ -30,7 +30,7 @@
 	$searchParam = "realname=$realname&tablet_number=$tablet_number&idcard=$idcard";
 	$attachment_url = $_config['attachment_url'];
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
   <head>
     <meta charset="utf-8">

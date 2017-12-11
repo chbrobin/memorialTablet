@@ -23,7 +23,7 @@ while($rowTabletVideos = mysql_fetch_object($rsTabletVideos)){
 $attachment_url = $_config['attachment_url'];
 $closeDelayTime = intval(getTabletConfigValue('close_delay_time'));
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
   <head>
     <meta charset="utf-8">

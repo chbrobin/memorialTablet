@@ -5,7 +5,7 @@ $realname = !empty($_REQUEST['realname']) ? htmlspecialchars($_REQUEST['realname
 $tablet_number = !empty($_REQUEST['tablet_number']) ? htmlspecialchars($_REQUEST['tablet_number']) : '';
 $idcard = !empty($_REQUEST['idcard']) ? htmlspecialchars($_REQUEST['idcard']) : '';
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
   <head>
     <meta charset="utf-8">
