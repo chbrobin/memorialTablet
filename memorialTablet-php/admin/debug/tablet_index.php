@@ -49,7 +49,16 @@ if($com_ports) {
         </div>
         <div class="fitem">
             <label>操作类型：</label>
-            开灯 <input type="radio" name="lighten_type" value="on" class="input-radio" checked="checked"/>&nbsp;&nbsp;&nbsp;&nbsp;
+            区域&nbsp;&nbsp;<select name="area">
+                <option value="">全部</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            开灯 <input type="radio" name="lighten_type" value="on" class="input-radio" checked="checked"/>&nbsp;&nbsp;
             关灯 <input type="radio" name="lighten_type" value="off" class="input-radio"/>&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <div class="fitem">

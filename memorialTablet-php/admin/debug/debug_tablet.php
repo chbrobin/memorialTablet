@@ -3,15 +3,25 @@ include '../../common/conn.php';
 include '../../common/function.php';
 $lighten_type = !empty($_REQUEST['lighten_type']) ? htmlspecialchars($_REQUEST['lighten_type']) : '';
 $ids = !empty($_REQUEST['ids']) ? htmlspecialchars($_REQUEST['ids']) : '';
+$area = !empty($_REQUEST['area']) ? htmlspecialchars($_REQUEST['area']) : '';
 $start = intval($_REQUEST['start']);
 $db_start = $start - 1;
-$rs = mysql_query("select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com order by tablet_number asc  limit $db_start,1 ");
+$rs = mysql_query("select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com where tablet_number like '$area%' order by tablet_number asc  limit $db_start,1 ");
 $obj = mysql_fetch_object($rs);
 if($obj) {
     $com_port_id = $obj -> com_port_id;
     $com_port = getComPortByComPortId($com_port_id);
     $com_module_id = $obj -> com_module_id;
     $com_module_address_id = $obj -> com_module_address;
+} else {
+    $controlResult = array();
+    $controlResult['exec_flag'] = 0;
+    $controlResult['start'] = $start;
+    $controlResult['id'] = '';
+    $controlResult['tablet_number'] = '';
+    $controlResult['message'] = "调试结束";
+    echo json_encode($controlResult);
+    exit;
 }
 $lighten_type = $_REQUEST['lighten_type'];
 if($lighten_type == 'on' || $lighten_type == 'onoff') {
@@ -25,6 +35,8 @@ if($start > $end) {
     $controlResult = array();
     $controlResult['exec_flag'] = 0;
     $controlResult['start'] = $start;
+    $controlResult['id'] = '';
+    $controlResult['tablet_number'] = '';
     $controlResult['message'] = "调试结束";
     echo json_encode($controlResult);
     exit;
