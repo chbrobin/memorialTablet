@@ -1,0 +1,68 @@
+package com.shenhua.memorial.tablet.service;
+
+import com.shenhua.memorial.tablet.model.ComModel;
+import com.shenhua.memorial.tablet.model.ComResult;
+import com.shenhua.memorial.tablet.util.CloseComTask;
+import com.shenhua.memorial.tablet.util.ComDataUtil;
+import org.apache.log4j.Logger;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Timer;
+
+/**
+ * Created by chenhuibin on 2017/12/25 0025.
+ */
+public class ComService {
+    private static final Logger logger = Logger.getLogger(ComService.class);
+
+    private static Map<String, Timer> timerMap = new HashMap<String, Timer>();
+    private static Map<String, ComModel> comModelMap = new HashMap<String, ComModel>();
+
+    public ComResult comControl(ComModel model) {
+        ComResult comResult = new ComResult();
+        try {
+            logger.info("comControl run param " + model.toString());
+            // 开关灯处理
+            String msg = ComDataUtil.sendComData(model);
+            if(msg != null && !"".equals(msg)) {
+                comResult.setCode(-1);
+                comResult.setMessage(msg);
+                return comResult;
+            }
+
+            // 如果开类，一段时间后自动关灯
+            if ("on".equals(model.getFlag()) && model.getCloseDelayTime() != null && model.getCloseDelayTime() > 0) {
+                String key = model.getComPort() + "_" + model.getComModuleId() + "_" + model.getComModuleAddress();
+                Timer timer = timerMap.get(key);
+                if(timer == null) {
+                    timer = new Timer();
+                }
+
+                ComModel closeComModel = comModelMap.get(key);
+                if(closeComModel == null) {
+                    closeComModel = comModelMap.get(closeComModel);
+                }
+
+                closeComModel.setBaudRate(model.getBaudRate());
+                closeComModel.setCloseDelayTime(model.getCloseDelayTime());
+                closeComModel.setComModuleAddress(model.getComModuleAddress());
+                closeComModel.setComModuleId(model.getComModuleId());
+                closeComModel.setComPort(model.getComPort());
+                closeComModel.setFlag("off");
+                logger.warn("comControl deplayTime param " + model.toString());
+                timer.cancel();
+                timer.schedule(new CloseComTask(closeComModel), model.getCloseDelayTime());
+
+                timerMap.put(key, timer);
+                comModelMap.put(key, closeComModel);
+            }
+            return comResult;
+        } catch (Exception e){
+            logger.error("index run error", e);
+            comResult.setCode(-1);
+            comResult.setMessage("串口通信异常！");
+            return comResult;
+        }
+    }
+}
