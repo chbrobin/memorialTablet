@@ -35,7 +35,7 @@ if($action == 'save') {
 </head>
 <body>
 <?php foreach($items as $item) {
-    echo "<div id=\"id_video_container_".$item->id."\" style=\"width:100%; height:auto;\"></div><br/>";
+    echo "<div id=\"id_video_container_".$item->id."\" style=\"width:100%; height:auto;\"></div><br/>".$item -> url."<br/>";
 } ?>
 <script src="//qzonestyle.gtimg.cn/open/qcloud/video/live/h5/live_connect.js" charset="utf-8"></script>
 <script type="text/javascript">
