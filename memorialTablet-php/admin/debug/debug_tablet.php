@@ -6,7 +6,7 @@ $ids = !empty($_REQUEST['ids']) ? htmlspecialchars($_REQUEST['ids']) : '';
 $area = !empty($_REQUEST['area']) ? htmlspecialchars($_REQUEST['area']) : '';
 $start = intval($_REQUEST['start']);
 $db_start = $start - 1;
-$rs = mysql_query("select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com where tablet_number_alias like '$area%' order by tablet_number asc  limit $db_start,1 ");
+$rs = mysql_query("select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com where tablet_number like '$area%' order by tablet_number_alias asc  limit $db_start,1 ");
 $obj = mysql_fetch_object($rs);
 if($obj) {
     $com_port_id = $obj -> com_port_id;

@@ -37,7 +37,7 @@
 
 	$rs = mysql_query("select mt.*, tc.com_port_id, tc.com_module_id, tc.com_module_address from memorial_tablet mt
 						left join tablet_com tc on mt.tablet_number = tc.tablet_number
-						where 1=1 $wheresql order by mt.id asc limit $offset,$rows");
+						where 1=1 $wheresql order by tc.tablet_number_alias asc limit $offset,$rows");
 	
 	$items = array();
 	while($row = mysql_fetch_object($rs)){
