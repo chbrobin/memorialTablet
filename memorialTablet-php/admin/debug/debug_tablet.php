@@ -4,9 +4,28 @@ include '../../common/function.php';
 $lighten_type = !empty($_REQUEST['lighten_type']) ? htmlspecialchars($_REQUEST['lighten_type']) : '';
 $ids = !empty($_REQUEST['ids']) ? htmlspecialchars($_REQUEST['ids']) : '';
 $area = !empty($_REQUEST['area']) ? htmlspecialchars($_REQUEST['area']) : '';
+$startArea = !empty($_REQUEST['startArea']) ? htmlspecialchars($_REQUEST['startArea']) : '';
+$endArea = !empty($_REQUEST['endArea']) ? htmlspecialchars($_REQUEST['endArea']) : '';
 $start = intval($_REQUEST['start']);
 $db_start = $start - 1;
-$rs = mysql_query("select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com where tablet_number like '$area%' order by tablet_number_alias asc  limit $db_start,1 ");
+
+$where_sql = "";
+if($area != "") {
+    $where_sql = " where tablet_number like '$area%'";
+} else {
+    $where_sql = " where 1=1 ";
+    if($startArea != "") {
+        $startAreaAlias = substr($startArea,0,1)."0".substr($startArea,1);
+        $where_sql = $where_sql." and tablet_number_alias >= '$startAreaAlias' ";
+    }
+    if($endArea != "") {
+        $endAreaAlias = substr($endArea,0,1)."0".substr($endArea,1);
+        $where_sql = $where_sql." and tablet_number_alias <= '$endAreaAlias' ";
+    }
+}
+
+$sql = "select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com $where_sql order by tablet_number_alias asc  limit $db_start,1 ";
+$rs = mysql_query($sql);
 $obj = mysql_fetch_object($rs);
 if($obj) {
     $com_port_id = $obj -> com_port_id;

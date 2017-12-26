@@ -58,6 +58,7 @@ if($com_ports) {
                 <option value="E">E</option>
                 <option value="F">F</option>
             </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            区间：<input type="text" name="startArea" style="width:50px;"/> ~ <input type="text" name="endArea" style="width:50px;"/>
             开灯 <input type="radio" name="lighten_type" value="on" class="input-radio" checked="checked"/>&nbsp;&nbsp;
             关灯 <input type="radio" name="lighten_type" value="off" class="input-radio"/>&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
