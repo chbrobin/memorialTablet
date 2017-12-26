@@ -7,7 +7,7 @@ $start = intval($_REQUEST['start']);
 $db_start = $start - 1;
 $rs = mysql_query("select mt.id, mt.tablet_number, tc.com_port_id, tc.com_module_id, tc.com_module_address from memorial_tablet mt
                    left join tablet_com tc on mt.tablet_number =  tc.tablet_number
-                   order by mt.tablet_number asc limit $db_start,1 ");
+                   order by tc.tablet_number_alias asc limit $db_start,1 ");
 $obj = mysql_fetch_object($rs);
 if($obj) {
     $com_port_id = $obj -> com_port_id;

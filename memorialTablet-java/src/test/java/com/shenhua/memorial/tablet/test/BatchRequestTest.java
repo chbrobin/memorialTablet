@@ -20,10 +20,10 @@ public class BatchRequestTest {
     private final static String TABLET_URL = "http://127.0.0.1/memorialTablet/lighten.php";
     private final static String COM_URL = "http://127.0.0.1:8080/";
     public static void testPostComData() throws Exception {
-        for(int j =12; j <= 12; j++) {
+        for(int j =9; j <= 9; j++) {
             for(int i = 0; i < 32; i ++) {
                 ComModel comModel = new ComModel();
-                comModel.setComPort("COM9");
+                comModel.setComPort("COM" + j);
                 comModel.setBaudRate(19200);
                 comModel.setComModuleId(j);
                 comModel.setComModuleAddress(i);
