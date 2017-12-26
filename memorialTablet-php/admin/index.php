@@ -20,8 +20,9 @@ include 'common/checklogin.php';
                     {"menuid":"2","menuname":"牌位灯控","icon":"icon-set","url":"debug/tablet_index.php"},
                     {"menuid":"3","menuname":"背景设置","icon":"icon-set","url":"config/bgconfig.php?bgType=upload"},
                     {"menuid":"4","menuname":"参数设置","icon":"icon-set","url":"config/index.php?configType=param"},
-                    {"menuid":"5","menuname":"操作日志","icon":"icon-log","url":"operateLog/index.php"},
-                    {"menuid":"6","menuname":"使用说明","icon":"icon-nav","url":"../help/index.html", "target":"_blank"}
+                    {"menuid":"5","menuname":"系统升级","icon":"icon-set","url":"upgrade/index.php"},
+                    {"menuid":"6","menuname":"操作日志","icon":"icon-log","url":"operateLog/index.php"},
+                    {"menuid":"7","menuname":"使用说明","icon":"icon-nav","url":"../help/index.html", "target":"_blank"}
                 ]
             },{"menuid":"2","icon":"icon-sys","menuname":"系统管理",
                 "menus":[
