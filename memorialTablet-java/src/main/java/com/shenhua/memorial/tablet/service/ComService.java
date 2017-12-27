@@ -16,8 +16,8 @@ import java.util.Timer;
 public class ComService {
     private static final Logger logger = Logger.getLogger(ComService.class);
 
-    private static Map<String, Timer> timerMap = new HashMap<String, Timer>();
-    private static Map<String, ComModel> comModelMap = new HashMap<String, ComModel>();
+    private static Map<String, Timer> closeTimerMap = new HashMap<String, Timer>();
+    private static Map<String, ComModel> closeComModelMap = new HashMap<String, ComModel>();
 
     public ComResult comControl(ComModel model) {
         ComResult comResult = new ComResult();
@@ -34,14 +34,14 @@ public class ComService {
             // 如果开类，一段时间后自动关灯
             if ("on".equals(model.getFlag()) && model.getCloseDelayTime() != null && model.getCloseDelayTime() > 0) {
                 String key = model.getComPort() + "_" + model.getComModuleId() + "_" + model.getComModuleAddress();
-                Timer timer = timerMap.get(key);
+                Timer timer = closeTimerMap.get(key);
                 if(timer == null) {
                     timer = new Timer();
                 }
 
-                ComModel closeComModel = comModelMap.get(key);
+                ComModel closeComModel = closeComModelMap.get(key);
                 if(closeComModel == null) {
-                    closeComModel = comModelMap.get(closeComModel);
+                    closeComModel = new ComModel();
                 }
 
                 closeComModel.setBaudRate(model.getBaudRate());
@@ -51,11 +51,11 @@ public class ComService {
                 closeComModel.setComPort(model.getComPort());
                 closeComModel.setFlag("off");
                 logger.warn("comControl deplayTime param " + model.toString());
-                timer.cancel();
+                timer.purge();
                 timer.schedule(new CloseComTask(closeComModel), model.getCloseDelayTime());
 
-                timerMap.put(key, timer);
-                comModelMap.put(key, closeComModel);
+                closeTimerMap.put(key, timer);
+                closeComModelMap.put(key, closeComModel);
             }
             return comResult;
         } catch (Exception e){

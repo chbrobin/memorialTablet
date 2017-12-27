@@ -21,18 +21,15 @@ public class BatchRequestTest {
     private final static String COM_URL = "http://127.0.0.1:8080/";
     public static void testPostComData() throws Exception {
         for(int j =9; j <= 9; j++) {
-            for(int i = 0; i < 32; i ++) {
+            for(int i = 0; i < 1024; i ++) {
                 ComModel comModel = new ComModel();
                 comModel.setComPort("COM" + j);
                 comModel.setBaudRate(19200);
                 comModel.setComModuleId(j);
                 comModel.setComModuleAddress(i);
                 comModel.setFlag("on");
-                comModel.setCloseDelayTime(5000000L);
+                comModel.setCloseDelayTime(20000L);
                 postComData(comModel);
-                postComData(comModel);
-                postComData(comModel);
-                Thread.sleep(350l);
             }
         }
     }
