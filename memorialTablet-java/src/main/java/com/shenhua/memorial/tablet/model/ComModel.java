@@ -4,8 +4,6 @@ package com.shenhua.memorial.tablet.model;
  * Created by chenhuibin on 2017/10/17 0017.
  */
 public class ComModel {
-    private Long id;
-
     private String comPort;
 
     private Integer baudRate;
@@ -64,14 +62,6 @@ public class ComModel {
 
     public void setCloseDelayTime(Long closeDelayTime) {
         this.closeDelayTime = closeDelayTime;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     @Override

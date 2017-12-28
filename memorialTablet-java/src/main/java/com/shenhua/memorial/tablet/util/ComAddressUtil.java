@@ -13,14 +13,49 @@ public class ComAddressUtil {
 
     // 01 05 00 00 FF 00 8C 3A
     public static String genHexAddress(int moduleId, int moduleAddress, int flag) {
+        // 模块地址 MODULE_ID
         String moduleIdStr = Integer.toHexString(moduleId);
         String hex1 = moduleIdStr.length() > 1 ? moduleIdStr : "0" + moduleIdStr;
+
+        // 功能码 写寄存器<WRITE_1_COIL>
         String hex2 = "05";
+
+        // 寄存器地址 MODULE_AD
         String moduleAddressStr = Integer.toHexString(moduleAddress);
         String hex3 = "00" + (moduleAddressStr.length() > 1 ? moduleAddressStr : "0" + moduleAddressStr);
+
+        // 写入数据 FF00H：表示YO闭合 0000H：表示YO断开
         String hex4 = flag == 1 ? "ff00" : "0000";
+
+        // CRC校验
         String hex5 = Make_CRC(HexString2Bytes(hex1 + hex2 + hex3 + hex4));
         return (hex1 + hex2 + hex3 + hex4 + hex5).toUpperCase();
+    }
+
+    // 01 05 00 00 FF 00 8C 3A
+    public static String genMultiHexAddress(int moduleId, int flag) {
+        // 从机地址
+        String moduleIdStr = Integer.toHexString(moduleId);
+        String hex1 = moduleIdStr.length() > 1 ? moduleIdStr : "0" + moduleIdStr;
+
+        // 写寄存器 10H 固定
+        String hex2 = "10";
+
+        // 起始寄存器地址 8050H固定
+        String hex3 = "8050";
+
+        // 控制继电器数量 0002H固定
+        String hex4 = "0002";
+
+        // 写入字节个数 04H固定
+        String hex5 = "04";
+
+        // 写入数据1~4
+        String hex6 = flag == 1 ? "02010804" : "02010804";
+
+        // CRC校验
+        String hex7 = Make_CRC(HexString2Bytes(hex1 + hex2 + hex3 + hex4 + hex5 + hex6));
+        return (hex1 + hex2 + hex3 + hex4 + hex5 + hex6 + hex7).toUpperCase();
     }
 
     public static byte[] HexString2Bytes(String hexstr) {

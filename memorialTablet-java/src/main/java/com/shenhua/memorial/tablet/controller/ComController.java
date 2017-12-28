@@ -2,6 +2,7 @@ package com.shenhua.memorial.tablet.controller;
 
 import com.shenhua.memorial.tablet.model.ComModel;
 import com.shenhua.memorial.tablet.model.ComResult;
+import com.shenhua.memorial.tablet.model.MultiModel;
 import com.shenhua.memorial.tablet.service.ComService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,15 +23,20 @@ import java.util.TimerTask;
 public class ComController {
     private static final Logger logger = Logger.getLogger(ComController.class);
 
-    private ComService comService;
-
     @RequestMapping("/")
     @ResponseBody
     public ComResult index(ComModel model) throws Exception {
-        if(comService == null) {
-            comService = new ComService();
-        }
+        ComService comService = ComService.getInstance();
         ComResult comResult = comService.comControl(model);
+        return comResult;
+    }
+
+
+    @RequestMapping("/multi")
+    @ResponseBody
+    public ComResult multi(MultiModel model) throws Exception {
+        ComService comService = ComService.getInstance();
+        ComResult comResult = comService.multiControl(model);
         return comResult;
     }
 

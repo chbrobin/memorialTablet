@@ -11,20 +11,19 @@ import java.util.TimerTask;
 public class CloseComTask extends TimerTask {
     private static final Logger logger = Logger.getLogger(CloseComTask.class);
 
+    ComModel closeComModel;
+
     public CloseComTask(ComModel comModel) {
         this.closeComModel = comModel;
     }
-    ComModel closeComModel;
+
     @Override
     public void run() {
         try {
             logger.info("CloseComTask run param " + closeComModel.toString());
             ComDataUtil.sendComData(closeComModel);
-            ComDataUtil.sendComData(closeComModel);
-            ComDataUtil.sendComData(closeComModel);
         } catch (Exception e) {
             logger.error("CloseComTask run error" ,e);
         }
-
     }
 }

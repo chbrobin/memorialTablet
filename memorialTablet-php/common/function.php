@@ -103,4 +103,30 @@ function lightControl($cms_soa_host, $comPort, $baudRate, $comModuleId, $comModu
     }
     return $result;
 }
+
+function multiControl($cms_soa_host, $comPort, $baudRate, $comModuleId, $flag) {
+    $post_data = array(
+        'comPort' => $comPort,
+        'baudRate' => $baudRate,
+        'comModuleId' => $comModuleId,
+        'flag'=> $flag
+    );
+
+    $result = array();
+    $post_result_str = send_post($cms_soa_host."/multi", $post_data);
+    if($post_result_str) {
+        $post_result_obj = json_decode($post_result_str);
+        if($post_result_obj -> code == 0) {
+            $result['error'] = 0;
+            $result['message'] = '亮灯成功';
+        } else {
+            $result['error'] = 1;
+            $result['message'] = $post_result_obj -> message;
+        }
+    } else {
+        $result['error'] = 1;
+        $result['message'] = '串口通信服务无法连接！';
+    }
+    return $result;
+}
 ?>

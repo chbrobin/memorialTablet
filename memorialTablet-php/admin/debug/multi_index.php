@@ -10,6 +10,10 @@ if($com_ports) {
     $com_port_items = array();
 }
 
+$rs = mysql_query("SELECT COUNT(DISTINCT com_port_id, com_module_id) FROM tablet_com");
+$row = mysql_fetch_row($rs);
+$multiCnt = $row[0];
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -49,16 +53,12 @@ if($com_ports) {
         </div>
         <div class="fitem">
             <label>操作类型：</label>
-            区域&nbsp;&nbsp;<select name="area">
+            COM:&nbsp;&nbsp;<select name="area">
                 <option value="">全部</option>
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-                <option value="D">D</option>
-                <option value="E">E</option>
-                <option value="F">F</option>
+                <?php foreach($com_port_items as $com_port) { ?>
+                    <option value="<?php echo $com_port;?>"><?php echo $com_port;?></option>
+                <?php } ?>
             </select>&nbsp;&nbsp;&nbsp;&nbsp;
-            区间：<input type="text" name="startArea" style="width:50px;"/> ~ <input type="text" name="endArea" style="width:50px;"/>
             开灯 <input type="radio" name="lighten_type" value="on" class="input-radio" checked="checked"/>&nbsp;&nbsp;
             关灯 <input type="radio" name="lighten_type" value="off" class="input-radio"/>&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
@@ -80,7 +80,7 @@ if($com_ports) {
         $("#result_span").html("");
     }
     function printTest(data) {
-        $("#result_span").append("运行结果： index:" + data.start + " id: "+data.id +  " tablet_number:"+data.tablet_number + " ==>" + data.message + "</br>");
+        $("#result_span").append("运行结果： index:" + data.start + " com_port: "+data.com_port +  " com_module_id:"+data.com_module_id + " ==>" + data.message + "</br>");
     }
     function goon() {
         exeFlag = true;
@@ -116,7 +116,7 @@ if($com_ports) {
     function reloadPage(start) {
         var interval_time = parseInt($("#interval_time").val());
         $.ajax({
-            url: 'debug_tablet.php?close_delay_time=0&start='+ start + '&end=1025&' + $('#form1').serialize(),
+            url: 'debug_multi.php?start='+ start + '&end=<?php echo $multiCnt; ?>&' + $('#form1').serialize(),
             type: 'GET',
             async: true,
             cache: false,
