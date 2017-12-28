@@ -53,7 +53,7 @@ $multiCnt = $row[0];
         </div>
         <div class="fitem">
             <label>操作类型：</label>
-            COM:&nbsp;&nbsp;<select name="area">
+            COM:&nbsp;&nbsp;<select name="com_port">
                 <option value="">全部</option>
                 <?php foreach($com_port_items as $com_port) { ?>
                     <option value="<?php echo $com_port;?>"><?php echo $com_port;?></option>

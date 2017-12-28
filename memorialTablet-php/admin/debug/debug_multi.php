@@ -3,12 +3,13 @@ include '../../common/conn.php';
 include '../../common/function.php';
 $lighten_type = !empty($_REQUEST['lighten_type']) ? htmlspecialchars($_REQUEST['lighten_type']) : '';
 $ids = !empty($_REQUEST['ids']) ? htmlspecialchars($_REQUEST['ids']) : '';
-$com_port_id  = !empty($_REQUEST['area']) ? htmlspecialchars($_REQUEST['area']) : '';
+$com_port  = !empty($_REQUEST['com_port']) ? htmlspecialchars($_REQUEST['com_port']) : '';
 $start = intval($_REQUEST['start']);
 $db_start = $start - 1;
 
 $where_sql = "";
-if($com_port_id != "") {
+if($com_port != "") {
+    $com_port_id = getComPortIdByComPort($com_port);
     $where_sql = " where com_port_id = $com_port_id ";
 }
 
@@ -23,8 +24,8 @@ if($obj) {
     $controlResult = array();
     $controlResult['exec_flag'] = 0;
     $controlResult['start'] = $start;
-    $controlResult['id'] = '';
-    $controlResult['tablet_number'] = '';
+    $controlResult['com_port'] = '';
+    $controlResult['com_module_id'] = '';
     $controlResult['message'] = "调试结束";
     echo json_encode($controlResult);
     exit;
