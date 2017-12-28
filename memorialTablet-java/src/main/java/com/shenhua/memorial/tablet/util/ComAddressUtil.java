@@ -51,7 +51,7 @@ public class ComAddressUtil {
         String hex5 = "04";
 
         // 写入数据1~4
-        String hex6 = flag == 1 ? "02010804" : "02010804";
+        String hex6 = flag == 1 ? "ffffffff" : "00000000";
 
         // CRC校验
         String hex7 = Make_CRC(HexString2Bytes(hex1 + hex2 + hex3 + hex4 + hex5 + hex6));
