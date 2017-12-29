@@ -20,8 +20,8 @@ public class BatchRequestTest {
     private final static String TABLET_URL = "http://127.0.0.1/memorialTablet/lighten.php";
     private final static String COM_URL = "http://127.0.0.1:8080/";
     public static void testPostComData() throws Exception {
-        for(int k = 0; k < 1; k ++) {
-            for (int j : new int[]{9}) {
+        for(int k = 0; k < 1000; k ++) {
+            for (int j : new int[]{7,8,9}) {
                 for (int i = 0; i < 1; i++) {
                     for (int m = 0; m < 32; m++) {
                         ComModel comModel = new ComModel();
