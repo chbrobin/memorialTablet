@@ -23,6 +23,7 @@ import java.util.TimerTask;
 public class ComController {
     private static final Logger logger = Logger.getLogger(ComController.class);
 
+    /** 单个继电器控制 */
     @RequestMapping("/")
     @ResponseBody
     public ComResult index(ComModel model) throws Exception {
@@ -31,7 +32,7 @@ public class ComController {
         return comResult;
     }
 
-
+    /** 一组模块继电器控制 */
     @RequestMapping("/multi")
     @ResponseBody
     public ComResult multi(MultiModel model) throws Exception {

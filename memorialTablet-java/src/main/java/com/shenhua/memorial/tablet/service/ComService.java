@@ -10,17 +10,27 @@ import org.apache.log4j.Logger;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Timer;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by chenhuibin on 2017/12/25 0025.
  */
 public class ComService {
+    private static final Logger logger = Logger.getLogger(ComService.class);
+
     private static ComService comService = null;
+
+    private static ScheduledExecutorService scheduledExecutorService;
 
     static {
         //在该类被ClassLoader加载时就初始化一个ComService对象
         if (comService == null) {
             comService = new ComService();
+        }
+        if(scheduledExecutorService == null) {
+            scheduledExecutorService = Executors.newScheduledThreadPool(1024);
         }
     }
 
@@ -37,10 +47,13 @@ public class ComService {
         return comService;
     }
 
+    public static ScheduledExecutorService getScheduledExecutorService() {
+        if (scheduledExecutorService == null) {
+            scheduledExecutorService = Executors.newScheduledThreadPool(1024);
+        }
+        return scheduledExecutorService;
+    }
 
-    private static final Logger logger = Logger.getLogger(ComService.class);
-
-    private static Map<String, Timer> closeTimerMap = new HashMap<String, Timer>();
     private static Map<String, ComModel> closeComModelMap = new HashMap<String, ComModel>();
 
     public ComResult comControl(ComModel model) {
@@ -56,13 +69,9 @@ public class ComService {
             }
 
             // 如果开类，一段时间后自动关灯
+            // 对所有关灯任务进行缓存
             if ("on".equals(model.getFlag()) && model.getCloseDelayTime() != null && model.getCloseDelayTime() > 0) {
                 String key = model.getComPort() + "_" + model.getComModuleId() + "_" + model.getComModuleAddress();
-                Timer timer = closeTimerMap.get(key);
-                if(timer == null) {
-                    timer = new Timer();
-                }
-
                 ComModel closeComModel = closeComModelMap.get(key);
                 if(closeComModel == null) {
                     closeComModel = new ComModel();
@@ -74,11 +83,11 @@ public class ComService {
                 closeComModel.setComModuleId(model.getComModuleId());
                 closeComModel.setComPort(model.getComPort());
                 closeComModel.setFlag("off");
-                logger.warn("comControl deplayTime param " + model.toString());
-                timer.purge();
-                timer.schedule(new CloseComTask(closeComModel), model.getCloseDelayTime());
 
-                closeTimerMap.put(key, timer);
+                ScheduledExecutorService scheduledExecutorService = getScheduledExecutorService();
+                scheduledExecutorService.schedule(new CloseComTask(closeComModel),model.getCloseDelayTime(), TimeUnit.MILLISECONDS);
+
+                logger.warn("comControl deplayTime param " + model.toString());
                 closeComModelMap.put(key, closeComModel);
             }
             return comResult;
