@@ -49,7 +49,7 @@ $multiCnt = $row[0];
     <form id="form1" action="index.php">
         <div class="fitem">
             <label>间隔时间：</label>
-            <input id="interval_time" type="text" value="100"/>(毫秒)
+            <input id="interval_time" type="text" value="1000"/>(毫秒)
         </div>
         <div class="fitem">
             <label>操作类型：</label>

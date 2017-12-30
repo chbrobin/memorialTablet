@@ -70,10 +70,8 @@ public class SerialTool {
         //判断是不是串口
         if (commPort instanceof SerialPort) {
             SerialPort serialPort = (SerialPort) commPort;
-            serialPort.notifyOnDataAvailable(true);
             //设置一下串口的波特率等参数
             serialPort.setSerialPortParams(baudrate, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_NONE);
-//            serialPort.setSerialPortParams(baudrate, SerialPort.DATABITS_8, SerialPort.STOPBITS_2, SerialPort.PARITY_NONE);
             return serialPort;
         }
         return null;

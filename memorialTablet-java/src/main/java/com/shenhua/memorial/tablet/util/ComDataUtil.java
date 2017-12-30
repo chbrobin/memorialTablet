@@ -61,7 +61,6 @@ public class ComDataUtil {
         try {
             SerialPort serialPort = SerialTool.openPort(model.getComPort(),model.getBaudRate());
             SerialTool.sendToPort(serialPort, SerialTool.hex2byte(message));
-            SerialTool.addListener(serialPort, new SerialListener(serialPort));
             SerialTool.closePort(serialPort);
         } catch (PortInUseException e1) {
             logger.error("sendComData PortInUseException", e1);

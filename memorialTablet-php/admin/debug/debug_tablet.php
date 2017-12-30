@@ -15,16 +15,14 @@ if($area != "") {
 } else {
     $where_sql = " where 1=1 ";
     if($startArea != "") {
-        $startAreaAlias = substr($startArea,0,1)."0".substr($startArea,1);
-        $where_sql = $where_sql." and tablet_number_alias >= '$startAreaAlias' ";
+        $where_sql = $where_sql." and tablet_number >= '$startArea' ";
     }
     if($endArea != "") {
-        $endAreaAlias = substr($endArea,0,1)."0".substr($endArea,1);
-        $where_sql = $where_sql." and tablet_number_alias <= '$endAreaAlias' ";
+        $where_sql = $where_sql." and tablet_number <= '$endArea' ";
     }
 }
 
-$sql = "select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com $where_sql order by tablet_number_alias asc  limit $db_start,1 ";
+$sql = "select tablet_number, com_port_id, com_module_id, com_module_address from tablet_com $where_sql order by tablet_number asc  limit $db_start,1 ";
 $rs = mysql_query($sql);
 $obj = mysql_fetch_object($rs);
 if($obj) {

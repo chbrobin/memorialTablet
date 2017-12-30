@@ -248,7 +248,9 @@ $closeDelayTime = intval(getTabletConfigValue('close_delay_time'));
                     <p class="text-center">
                         <span id="tip" style="color:yellow;"></span>
                         <br>
-			<select name="closeDelayTime" id="closeDelayTime" style="width:80px;height:60px;background-color:#B8860B;boder-color:#B8860B;">
+
+                        <span style="width:80px;height:60px;background-color:#B8860B;boder-color:#B8860B;">亮灯<?php echo $closeDelayTime ?>分钟</span>
+			<select name="closeDelayTime" id="closeDelayTime" style="display:none;width:80px;height:60px;background-color:#B8860B;boder-color:#B8860B;">
     			  <?php
 				for($index = 1; $index < 30; $index ++) {
                 $indexTime = $index * 60 * 1000;
